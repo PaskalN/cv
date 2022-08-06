@@ -95,3 +95,41 @@ section .title:after {
     border-radius: 5px;
     box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.25);
 }
+
+@media only screen and (max-width: 720px) {
+
+    .shell > .item-1-md {
+        flex-basis: 100% !important;
+    }
+    
+    .shell > .item-2-md {
+        flex-basis: 50%  !important;
+    }
+    
+    .shell > .item-3-md {
+        flex-basis: 33.333333%  !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .shell > .item-1-sm {
+        flex-basis: 100% !important;
+    }
+    
+    .shell > .item-2-sm {
+        flex-basis: 50%  !important;
+    }
+    
+    .shell > .item-3-sm {
+        flex-basis: 33.333333%  !important;
+    }
+
+    #certificates {
+        text-align: center;
+    }
+
+    #certificates .item-2 {
+        flex-basis: 100%;
+    }
+}
