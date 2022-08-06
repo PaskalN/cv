@@ -3,9 +3,3 @@
 @import url('global.css');
 @import url('header.css');
 @import url('sections.css');
-
-* {
-	margin: 0;
-	padding: 0;
-}
-

@@ -15,7 +15,7 @@
 .shell.br:after {
 	content: '';
 	height: 1px;
-	background: black;
+	background: #000;
 	margin: 20px auto;
 	display: block;
 	flex-basis: 200px;
@@ -78,3 +78,6 @@ h4 {
 	font-family: 'cabinregular';
 }
 
+a {
+	color: rgb(0, 137, 201);
+}
