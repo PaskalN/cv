@@ -1,28 +1,28 @@
 header {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 header .main-contacts {
-	text-align: right;
-	text-decoration: none;
-	list-style: none;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
 }
 
 header .main-contacts > li {
-	margin-bottom: 10px;
-	font-family: 'cabinregular';
+    margin-bottom: 10px;
+    font-family: 'cabinregular';
 }
 
 header .main-contacts > li > i {
-	min-width: 40px;
-	text-align: center;
-	font-size: 1.6em;
+    min-width: 40px;
+    text-align: center;
+    font-size: 1.6em;
 }
 
 header .avatar img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 500px;
-	box-sizing: border-box;
-	border: 8px solid #3e3e3e;
+    display: block;
+    margin: 0 auto;
+    border-radius: 500px;
+    box-sizing: border-box;
+    border: 8px solid #3e3e3e;
 }

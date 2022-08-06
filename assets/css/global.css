@@ -1,5 +1,5 @@
 .shell {
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
@@ -9,75 +9,75 @@
     max-width: 1200px;
 
     padding: 40px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .shell.br:after {
-	content: '';
-	height: 1px;
-	background: #000;
-	margin: 20px auto;
-	display: block;
-	flex-basis: 200px;
+    content: '';
+    height: 1px;
+    background: #000;
+    margin: 20px auto;
+    display: block;
+    flex-basis: 200px;
 }
 
 .shell > div.f-item {
-	flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
     flex-grow: 1;
 }
 
 /*Colors*/
 .c-light {
-	color: #3e3e3e;
+    color: #3e3e3e;
 }
 
 .c-blue {
-	color: #226185;
+    color: #226185;
 }
 
 /*Text Size*/
 .tx-xs {
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .tx-sm {
-	font-size: 1em;
+    font-size: 1em;
 }
 
 .tx-md {
-	font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 .tx-lg {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .tx-xl {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 .tx-c {
-	text-align: center;
+    text-align: center;
 }
 
 h2 {
-	font-size: 2em;
-	font-family: 'oxygenregular';
-	font-weight: bold;
-	margin-bottom: 10px;
+    font-size: 2em;
+    font-family: 'oxygenregular';
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 h3 {
-	font-size: 1.3em;
-	font-family: 'cabinregular';
-	margin-bottom: 10px;
+    font-size: 1.3em;
+    font-family: 'cabinregular';
+    margin-bottom: 10px;
 }
 
 h4 {
-	font-size: 1.1em;
-	font-family: 'cabinregular';
+    font-size: 1.1em;
+    font-family: 'cabinregular';
 }
 
 a {
-	color: rgb(0, 137, 201);
+    color: rgb(0, 137, 201);
 }
