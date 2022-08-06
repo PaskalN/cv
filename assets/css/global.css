@@ -1,0 +1,80 @@
+.shell {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    max-width: 1200px;
+
+    padding: 40px;
+	box-sizing: border-box;
+}
+
+.shell.br:after {
+	content: '';
+	height: 1px;
+	background: black;
+	margin: 20px auto;
+	display: block;
+	flex-basis: 200px;
+}
+
+.shell > div.f-item {
+	flex: 0 0 33.333333%;
+    flex-grow: 1;
+}
+
+/*Colors*/
+.c-light {
+	color: #3e3e3e;
+}
+
+.c-blue {
+	color: #226185;
+}
+
+/*Text Size*/
+.tx-xs {
+	font-size: 0.8em;
+}
+
+.tx-sm {
+	font-size: 1em;
+}
+
+.tx-md {
+	font-size: 1.3em;
+}
+
+.tx-lg {
+	font-size: 1.5em;
+}
+
+.tx-xl {
+	font-size: 2em;
+}
+
+.tx-c {
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'oxygenregular';
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-family: 'cabinregular';
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-family: 'cabinregular';
+}
+

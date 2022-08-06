@@ -1,0 +1,20 @@
+@import url('font-awesome.css');
+
+@font-face {
+    font-family: 'cabinregular';
+    src: url('../fonts/cabin/cabin-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('../fonts/cabin/cabin-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen/oxygen-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oxygen/oxygen-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
